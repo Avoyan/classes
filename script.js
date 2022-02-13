@@ -40,4 +40,9 @@ console.log(eliStud.toString());
 
 let edTeach = new Teacher("Edward", "Alderson", "Male", 38, "Computer science", 120);
 console.log(edTeach.toString());
+
 console.log("#####################################################");
+
+let clock = new Clock({template: 'h:m:s'});
+clock.start();
+setTimeout(() => clock.stop(), 5000);
